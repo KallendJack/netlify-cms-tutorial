@@ -1,7 +1,8 @@
 import React from 'react'
 
 export default () => (
-  <form name="contact" netlify>
+  <form>
+    <input type="hidden" name="form-name" value="contact" />
     <p>
       <label>
         Name <input type="text" name="name" />
